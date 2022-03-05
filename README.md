@@ -48,3 +48,24 @@ Firebase
 ## Authors
 
 - [@AbhishekGupta](https://github.com/Tesla-gamer)
+
+
+
+
+
+
+
+## Important settings for third party library
+
+```javascript
+Add this statement in gradle properties --> android.enableJetifier=true
+Add this statement in settings.gradle-->plugin management -->> maven{
+                                                                   url("https://jcenter.bintray.com")
+      
+                                                                 }
+
+dependency resoulution maven{
+                             url("https://jcenter.bintray.com")
+      
+                           }
+```
